@@ -10,8 +10,8 @@ module "s3_bucket" {
   }
 
   tags = {
-    Department = "devops"
-    Billable = true
+    department = "devops"
+    environment = "sandbox"
   }
 
 }
